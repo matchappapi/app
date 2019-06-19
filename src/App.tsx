@@ -31,7 +31,7 @@ const ExchangeRates = () => (
 );
 
 const client = new ApolloClient({
-  uri: "http://localhost:4002/graphql"
+  uri: "http://localhost:4000/graphql"
 });
 
 const App: React.FC = () => {
